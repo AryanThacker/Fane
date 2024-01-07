@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-color: #202124;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.inputContainer{
+    height: 10vh;
+    width: 40%;
+    background-color: rgba(25, 25, 27, 1);
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 800px) {   
+    .inputContainer{
+        height: 10vh;
+        width: 90%;
+    }
+
+    .inputContainer input {
+        width: 90%;
+        height: 90%;
+        background: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input::placeholder{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    i{
+        font-size: 1rem;
+        padding: 0.8rem ;
+        /* width: 15%; */
+    }
+
+
+}
+
+.inputContainer input{
+    background-color: transparent;
+    border: none;
+    width: 85%;
+    height: 90%;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder{
+    color: ivory;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    background-color: rgba(25, 25, 27, 1);
+}
+
+.inputContainer i{
+    font-size: 1.5rem;
+    color: rgb(130, 13, 124);
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.8rem ;
+    /* width: 15%; */
+}
+
+
+
+
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: radial-gradient(
+    132.65% 132.43% at 41.25% 136.91%,
+    #1f0a67 15%,
+    rgb(105, 29, 59),
+    rgba(253, 253, 253, 0)
+  );
+  top: 15%;
+  left: 0;
+  /* z-index: -1; */
+}
+
+.logo { 
+  scale: 0.8;
+  margin: 8vh 0 10vh 0;
+}
