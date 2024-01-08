@@ -40,11 +40,13 @@
         background: #ffffff;
         display: flex;
         flex-wrap: wrap;
+        padding-left: 1rem;
+
     }
 
     input::placeholder{
         font-size: 1rem;
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
     }
 
     i{
@@ -57,7 +59,8 @@
 }
 
 .inputContainer input{
-    background-color: transparent;
+    /* background-color: red; */
+    border-radius: 50px;
     border: none;
     width: 85%;
     height: 90%;
