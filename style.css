@@ -59,7 +59,7 @@
 }
 
 .inputContainer input{
-    /* background-color: red; */
+    background-color: transparent;
     border-radius: 50px;
     border: none;
     width: 85%;
